@@ -18,3 +18,8 @@ This research investigates the systematic failure of LLMs (specifically GPT-4) t
 - **Type-Token Ratio (TTR):** Measuring lexical richness.
 - **Mean Length of Sentence (MLS):** Assessing syntactic complexity.
 - **Burrows’ Delta:** Quantifying stylistic distance from the source corpus.
+markdown
+## Citation
+If you use this framework, code, or findings in your research, please cite this work as follows:
+‌
+**Merrikhi, P. (2026).** *The Stylistic Slope: Algorithmic Homogenization and the Decolonization of Literary AI*. [Manuscript submitted for publication]. Repository: https://github.com/Pegi1727/stylistic-slope-audit
