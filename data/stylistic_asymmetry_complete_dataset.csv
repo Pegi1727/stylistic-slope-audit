@@ -1,0 +1,37 @@
+Text_ID,Author,Tradition,Corpus,Generation,Text,MATTR,Burrows_Delta,MLS,Hapax_Ratio,Mean_Word_Len,Lex_Density,Type,HLR,Lexical_Density
+W_001,Hemingway,Western Minimalist,Human,—,The sun was hot and white. The hills were dry. He walked slowly toward the river.,0.75,0.0,12.5,48.5,4.2,0.65,Human,48.5,0.65
+W_001_G1,Hemingway,Western Minimalist,GPT-4o,1,The sun felt hot and white. The hills were dry. He walked slowly to the river.,0.73,0.41,12.2,47.1,4.1,0.63,GPT-4o,47.1,0.63
+W_001_G2,Hemingway,Western Minimalist,GPT-4o,2,It was a hot sun. The hills were dry. He walked slow toward the river.,0.72,0.45,11.9,46.2,4.2,0.62,GPT-4o,46.2,0.62
+W_001_G3,Hemingway,Western Minimalist,GPT-4o,3,The sun was white and hot. The hills looked dry. He walked to the river.,0.74,0.38,12.1,46.8,4.1,0.64,GPT-4o,46.8,0.64
+W_002,Carver,Western Minimalist,Human,—,He sat at the table. The coffee was cold. He did not look at her.,0.76,0.0,11.8,47.8,4.1,0.66,Human,47.8,0.66
+W_002_G1,Carver,Western Minimalist,GPT-4o,1,He sat at the table. The coffee had gone cold. He did not look at her.,0.74,0.42,12.1,46.5,4.1,0.64,GPT-4o,46.5,0.64
+W_002_G2,Carver,Western Minimalist,GPT-4o,2,He was sitting at the table. The coffee was cold. He looked away from her.,0.72,0.48,11.5,45.8,4.2,0.61,GPT-4o,45.8,0.61
+W_002_G3,Carver,Western Minimalist,GPT-4o,3,At the table he sat. The coffee was cold now. He avoided her gaze.,0.73,0.39,12.0,46.1,4.1,0.63,GPT-4o,46.1,0.63
+W_003,Didion,Western Minimalist,Human,—,"The wind blew across the valley, carrying the scent of old fire and dust.",0.78,0.0,14.2,49.2,4.5,0.68,Human,49.2,0.68
+W_003_G1,Didion,Western Minimalist,GPT-4o,1,"The wind blew over the valley, bringing the smell of old fire and dust.",0.76,0.44,13.8,48.1,4.4,0.66,GPT-4o,48.1,0.66
+W_003_G2,Didion,Western Minimalist,GPT-4o,2,"Across the valley the wind blew, with a scent of ancient fire and dust.",0.75,0.47,13.5,47.5,4.5,0.65,GPT-4o,47.5,0.65
+W_003_G3,Didion,Western Minimalist,GPT-4o,3,"The wind moved across the valley, carrying a scent of old fire and dust.",0.77,0.41,14.0,48.4,4.4,0.67,GPT-4o,48.4,0.67
+P_001,Achebe,Postcolonial,Human,—,"The forest spoke in whispers of old gods, where the red earth held memories of war.",0.81,0.0,18.5,53.2,4.8,0.71,Human,53.2,0.71
+P_001_G1,Achebe,Postcolonial,GPT-4o,1,"The forest whispered of the old gods, where the red earth remembered the war.",0.66,1.1,15.1,40.5,4.5,0.62,GPT-4o,40.5,0.62
+P_001_G2,Achebe,Postcolonial,GPT-4o,2,"In the forest, the old gods spoke in whispers and the red earth held memory.",0.69,1.22,16.2,42.1,4.6,0.64,GPT-4o,42.1,0.64
+P_001_G3,Achebe,Postcolonial,GPT-4o,3,"Whispers of old gods came from the forest, while the red earth remembered war.",0.65,1.18,15.8,39.8,4.4,0.61,GPT-4o,39.8,0.61
+P_002,Ngugi,Postcolonial,Human,—,The mountain stood as a silent witness to the struggle of the broken people.,0.83,0.0,19.2,54.5,4.9,0.73,Human,54.5,0.73
+P_002_G1,Ngugi,Postcolonial,GPT-4o,1,The mountain was a silent witness to the struggle of the people who were broken.,0.64,1.15,15.5,41.2,4.5,0.61,GPT-4o,41.2,0.61
+P_002_G2,Ngugi,Postcolonial,GPT-4o,2,"A silent witness, the mountain watched the struggle of the broken people.",0.67,1.28,16.8,43.1,4.6,0.63,GPT-4o,43.1,0.63
+P_002_G3,Ngugi,Postcolonial,GPT-4o,3,The mountain stood silently witnessing the struggle of the broken people.,0.62,1.21,15.2,38.5,4.4,0.6,GPT-4o,38.5,0.6
+P_003,Rushdie,Postcolonial,Human,—,"The city was a kaleidoscope of smells, a shimmering haze of saffron and exhaust.",0.8,0.0,17.8,51.8,4.7,0.7,Human,51.8,0.7
+P_003_G1,Rushdie,Postcolonial,GPT-4o,1,"The city felt like a kaleidoscope of smells, a haze of saffron and exhaust.",0.68,1.05,16.1,41.5,4.5,0.64,GPT-4o,41.5,0.64
+P_003_G2,Rushdie,Postcolonial,GPT-4o,2,"A kaleidoscope of smells filled the city, a shimmering haze of saffron.",0.71,1.12,16.5,42.8,4.6,0.65,GPT-4o,42.8,0.65
+P_003_G3,Rushdie,Postcolonial,GPT-4o,3,"The city was a kaleidoscope of scents, a haze that smelled of saffron and smoke.",0.65,1.19,15.7,40.1,4.4,0.62,GPT-4o,40.1,0.62
+M_001,Hedayat,Persian Modernist,Human,—,The darkness of the soul is a void that swallows the light of a thousand dead stars.,0.86,0.0,25.1,59.1,5.1,0.75,Human,59.1,0.75
+M_001_G1,Hedayat,Persian Modernist,GPT-4o,1,The soul is dark and it is a void that swallows the light of many dead stars.,0.57,2.61,14.5,31.2,4.4,0.58,GPT-4o,31.2,0.58
+M_001_G2,Hedayat,Persian Modernist,GPT-4o,2,Darkness in the soul creates a void that swallows the light of dead stars.,0.61,2.75,15.1,34.5,4.5,0.61,GPT-4o,34.5,0.61
+M_001_G3,Hedayat,Persian Modernist,GPT-4o,3,The soul's darkness is a void which swallows the light of a thousand stars.,0.55,2.58,14.2,29.8,4.3,0.56,GPT-4o,29.8,0.56
+M_002,Golshiri,Persian Modernist,Human,—,"Shadows stretched across the courtyard, weaving a tapestry of silence and forgotten grief.",0.84,0.0,23.8,57.5,5.0,0.74,Human,57.5,0.74
+M_002_G1,Golshiri,Persian Modernist,GPT-4o,1,"Shadows moved across the courtyard, making a tapestry of silence and old grief.",0.59,2.72,14.8,33.1,4.4,0.59,GPT-4o,33.1,0.59
+M_002_G2,Golshiri,Persian Modernist,GPT-4o,2,"Across the courtyard, shadows stretched into a tapestry of silence and grief.",0.62,2.81,15.4,35.2,4.5,0.62,GPT-4o,35.2,0.62
+M_002_G3,Golshiri,Persian Modernist,GPT-4o,3,"The shadows stretched in the courtyard, weaving silence and forgotten grief.",0.56,2.65,14.1,30.1,4.3,0.57,GPT-4o,30.1,0.57
+M_003,Dowlatabadi,Persian Modernist,Human,—,"The earth trembled under the weight of the nomadic caravans, a rhythmic thrum of destiny.",0.87,0.0,26.2,60.2,5.2,0.77,Human,60.2,0.77
+M_003_G1,Dowlatabadi,Persian Modernist,GPT-4o,1,"The earth shook under the weight of the caravans, a rhythm of destiny.",0.58,2.68,14.2,32.1,4.4,0.58,GPT-4o,32.1,0.58
+M_003_G2,Dowlatabadi,Persian Modernist,GPT-4o,2,"Under the weight of nomadic caravans, the earth trembled in a rhythmic way.",0.6,2.88,15.0,34.8,4.5,0.61,GPT-4o,34.8,0.61
+M_003_G3,Dowlatabadi,Persian Modernist,GPT-4o,3,"The earth trembled as the caravans passed, a rhythmic thrum of their destiny.",0.54,2.52,13.8,28.5,4.3,0.55,GPT-4o,28.5,0.55
