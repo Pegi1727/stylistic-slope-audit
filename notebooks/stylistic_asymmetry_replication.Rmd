@@ -1,0 +1,31 @@
+---
+title: "Measuring Stylistic Asymmetry in Large Language Models"
+subtitle: "Complete Replication RMarkdown Document"
+author: "Pegah Merrikhi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse); library(knitr)
+```
+
+## 1. Load Data
+```{r}
+df <- read.csv("../data/stylistic_asymmetry_complete_dataset.csv")
+df$Tradition <- factor(df$Tradition, levels=c("Western","Postcolonial","Persian"))
+df$Type <- factor(df$Type, levels=c("Human","GPT-4o"))
+head(df)
+```
+
+## 2. Descriptive Table
+```{r}
+df %>% group_by(Tradition, Type) %>% summarise(
+  N = n(),
+  MATTR = sprintf("%.3f \u00b1 %.3f", mean(MATTR), sd(MATTR)),
+  Burrows_Delta = sprintf("%.3f \u00b1 %.3f", mean(Burrows_Delta), sd(Burrows_Delta)),
+  MLS = sprintf("%.2f \u00b1 %.2f", mean(MLS), sd(MLS)),
+  HLR = sprintf("%.2f \u00b1 %.2f", mean(HLR), sd(HLR)),
+  .groups = "drop") %>% kable()
+```
