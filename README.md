@@ -20,7 +20,7 @@
   <tr>
     <td width="33%" align="center">
       <b>Graphic Abstract</b><br>
-      <img src="figures/graphic_abstract.png" width="100%"/>
+      <img src="figures/graphic abstract.png" width="100%"/>
     </td>
     <td width="33%" align="center">
       <b>Methodology Pipeline</b><br>
